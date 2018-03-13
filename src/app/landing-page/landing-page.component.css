@@ -1,0 +1,13 @@
+.body{
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  right: -40px;
+  bottom: -40px;
+  width: auto;
+  height: auto;
+  background-image: url(https://images.unsplash.com/photo-1444159759392-aeeb3d5851c1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ef99870ceb079a39d5c79b7f7fa1ff40&auto=format&fit=crop&w=1350&q=80);
+  background-size: cover;
+  -webkit-filter: blur(0px);
+  z-index: 0;
+}

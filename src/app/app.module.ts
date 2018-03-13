@@ -7,6 +7,11 @@ import { MainMenuComponent } from './main-menu/main-menu.component';
 import {routing} from './app.routing';
 import {FormsModule} from '@angular/forms';
 import { LoginComponent } from './login/login.component';
+import { LandingPageComponent } from './landing-page/landing-page.component';
+import { AccountsComponent } from './accounts/accounts.component';
+import { CardsComponent } from './cards/cards.component';
+import { PaymentsComponent } from './payments/payments.component';
+
 
 
 @NgModule({
@@ -16,12 +21,17 @@ import { LoginComponent } from './login/login.component';
   declarations: [
     AppComponent,
     MainMenuComponent,
-    LoginComponent
+    LoginComponent,
+    LandingPageComponent,
+    AccountsComponent,
+    CardsComponent,
+    PaymentsComponent
   ],
   imports: [
     BrowserModule,
     routing,
     FormsModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]

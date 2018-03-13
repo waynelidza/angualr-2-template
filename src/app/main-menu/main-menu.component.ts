@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-main-menu',
@@ -6,11 +7,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./main-menu.component.css']
 })
 export class MainMenuComponent implements OnInit {
-  lastUserActionTimestamp: Date = new Date();
-  constructor() { }
+
+  constructor(private router: Router) { }
 
   ngOnInit() {
-  this.lastUserActionTimestamp.getUTCDate();
-  }
 
+  }
+  goHome() {
+    this.router.navigate(['accounts']);
+  }
 }
